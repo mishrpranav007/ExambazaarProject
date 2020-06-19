@@ -1,0 +1,30 @@
+.exams{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71,71,71);
+    margin:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    background:white;
+    align-items:center;
+    min-width:40%;
+    min-height:10em;
+}
+
+.image{
+    border-radius: 60%;
+    width: 100px;
+    height : 100px;
+    margin-top:2px;
+}
+
+.paragraph{
+    margin-top: 5px;
+}
+
+.button{
+    margin-bottom: 1em;
+    margin-top: 1em;
+    background : lightgrey;
+    padding : 1opx 20px;
+}
