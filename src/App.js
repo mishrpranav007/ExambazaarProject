@@ -13,7 +13,7 @@ function App() {
          <Router>
            <NavigationBar />
            <Sidebar />
-           <Landing />
+           
           
 
           <Switch>
