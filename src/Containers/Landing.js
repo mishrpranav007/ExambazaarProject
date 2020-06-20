@@ -19,6 +19,7 @@ const Landing = () => {
     
     const response = await fetch('https://www.exambazaar.com/api/coding-round/routes/exam-info/8875367061');
     const result = await response.json();
+    console.log(result);
     setAnswers(result.data.exams);
     setStreaminfo(result.data.streams);
     
