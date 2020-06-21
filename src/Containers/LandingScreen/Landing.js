@@ -1,6 +1,6 @@
 import React, { useEffect,useState} from 'react';
-import Exams from './Exams';
-import Streams from './Streams';
+import Exams from '../ExamScreen/Exams';
+import Streams from '../StreamContainer/Streams';
 import "./Landing.css";
 
 

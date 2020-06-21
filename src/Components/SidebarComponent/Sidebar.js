@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import {  Link, withRouter } from "react-router-dom";
 
 const StyledSideNav = styled.div`   
-    position: fixed;     /* Fixed Sidebar (stay in place on scroll and position relative to viewport) */
+    position: fixed;
     height: 100%;
     width: 60px;     
     z-index:1;   
@@ -30,13 +30,7 @@ class SideNav extends React.Component {
                   name: 'Questions',
                   css: 'fa fa-fw fa-clock',
                   key: 2
-                },
-                {
-                  path: '/NoMatch',
-                  name: 'NoMatch',
-                  css: 'fas fa-hashtag',
-                  key: 3
-                },
+                }
               ]
         }
     }
@@ -72,15 +66,15 @@ const RouterSideNav = withRouter(SideNav);
 
 const StyledNavItem = styled.div`
     height: 70px;
-    width: 75px; /* width must be same size as NavBar to center */
-    text-align: center; /* Aligns <a> inside of NavIcon div */
-    margin-bottom: 0;   /* Puts space between NavItems */
+    width: 75px; 
+    text-align: center; 
+    margin-bottom: 0;   
     a {
         font-size: 2.7em;
         color: ${(props) => props.active ? "white" : "#9FFFCB"};
         :hover {
             opacity: 0.7;
-            text-decoration: none; /* Gets rid of underlining of icons */
+            text-decoration: none; 
         }  
     }
 `;

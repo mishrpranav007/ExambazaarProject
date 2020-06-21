@@ -7,6 +7,7 @@ class Quiz extends Component{
 
     state={
         questionBank : [],
+        previousquestionBank:[],
         score: 0,
         responses: 0
     };
@@ -14,10 +15,14 @@ class Quiz extends Component{
     getQuestions = () => {
         quizService().then(question => {
             this.setState({
-                questionBank : question
+            
+               questionBank:question,
+               previousquestionBank : this.state.questionBank
             });
         });
     };
+
+    
     computeAnswer = (answer,correctAnswer) => {
         if(answer === correctAnswer)
         {
@@ -26,9 +31,17 @@ class Quiz extends Component{
             });
         }
     }
-    restartGame = e => {
+    nextQuestionList = e => {
        this.getQuestions();
     }
+
+    previousQuestionList = () => {
+          this.setState({previousquestionBank:this.state.questionBank});
+          this.setState({questionBank:this.state.previousquestionBank});
+    
+    }
+
+
     componentDidMount(){
         this.getQuestions();
     }
@@ -44,8 +57,8 @@ class Quiz extends Component{
                        selected={answer => this.computeAnswer(answer,correct)}
                     />
                 ))}
-                <button className="primaryBtn">Previous</button>
-                <button onClick={this.restartGame} className="primaryBtn">Next</button>
+                <button onClick={this.previousQuestionList} className="primaryBtn">Previous</button>
+                <button onClick={this.nextQuestionList} className="secondaryBtn">Next</button>
             </div>
         )
     }
