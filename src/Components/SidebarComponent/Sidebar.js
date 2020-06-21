@@ -9,7 +9,7 @@ const StyledSideNav = styled.div`
     z-index:1;   
     top: 3.4em;      
     background-color: #222; 
-    // overflow-x: hidden;     
+    overflow-x: hidden;     
     padding-top: 10px;
 `;
 
@@ -26,7 +26,7 @@ class SideNav extends React.Component {
                   key: 1 
                 },
                 {
-                  path: '/questions',
+                  path: '/about',
                   name: 'Questions',
                   css: 'fa fa-fw fa-clock',
                   key: 2
