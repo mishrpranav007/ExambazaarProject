@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ExambazaarProject/static/css/main.ed8e37d2.chunk.css",
+    "main.js": "/ExambazaarProject/static/js/main.62bc127d.chunk.js",
+    "main.js.map": "/ExambazaarProject/static/js/main.62bc127d.chunk.js.map",
+    "runtime-main.js": "/ExambazaarProject/static/js/runtime-main.d8a225ff.js",
+    "runtime-main.js.map": "/ExambazaarProject/static/js/runtime-main.d8a225ff.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/ExambazaarProject/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.d6e74f67.chunk.js": "/ExambazaarProject/static/js/2.d6e74f67.chunk.js",
+    "static/js/2.d6e74f67.chunk.js.map": "/ExambazaarProject/static/js/2.d6e74f67.chunk.js.map",
+    "index.html": "/ExambazaarProject/index.html",
+    "precache-manifest.fa0e02a078593e2bf7fedc9fb8826fa6.js": "/ExambazaarProject/precache-manifest.fa0e02a078593e2bf7fedc9fb8826fa6.js",
+    "service-worker.js": "/ExambazaarProject/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/ExambazaarProject/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.ed8e37d2.chunk.css.map": "/ExambazaarProject/static/css/main.ed8e37d2.chunk.css.map",
+    "static/js/2.d6e74f67.chunk.js.LICENSE.txt": "/ExambazaarProject/static/js/2.d6e74f67.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8a225ff.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.d6e74f67.chunk.js",
+    "static/css/main.ed8e37d2.chunk.css",
+    "static/js/main.62bc127d.chunk.js"
+  ]
+}
